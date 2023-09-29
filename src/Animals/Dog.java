@@ -1,4 +1,8 @@
-public class Dog implements Animal{
+package Animals;
+
+import Animals.Animal;
+
+public class Dog implements Animal {
     @Override
     public void speak(){
         System.out.println("Woof!");
